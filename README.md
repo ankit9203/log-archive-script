@@ -33,12 +33,11 @@ To Schedule this script to run at 2:00 PM on April 11 every year:
 ```
 
 # Requirements
+   1) Bash
+      
+   2) tar utility
 
-        1) Bash
-
-        2) tar utility
-
-        3) Write permissions for the user’s home directory
+   3) Write permissions for the user’s home directory
 
 # License
 
@@ -46,5 +45,5 @@ This project is open-source and free to use under the MIT License.
 
 # Author
 
-        Ankit
-        GitHub: @ankit9203 
+  Ankit
+  GitHub: @ankit9203 
