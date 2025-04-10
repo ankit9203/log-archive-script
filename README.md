@@ -17,18 +17,20 @@ A simple Bash script to compress and archive log directories with timestamped fi
 
 ```bash
 ./log_archive.sh <log_directory>
-'''
+```
 # Example
+```bash
 ./log_archive.sh /var/log/nginx
-
+```
 # This will create a compressed archive like:
+ ```bash
  ~/archive_dir/log_archive.20250410_174403.tar.gz
-
+```
 # Cron Example
 To Schedule this script to run at 2:00 PM on April 11 every year:
-
+```bash
 0 14 11 4 * /home/ankit_byte/backup_script/log_archive.sh /home/ankit_byte/backup_script/copiedfile
-
+```
 
 # Requirements
 
@@ -45,4 +47,4 @@ This project is open-source and free to use under the MIT License.
 # Author
 
         Ankit
-        GitHub: @ankit9203 is this readme good
+        GitHub: @ankit9203 
